@@ -1,0 +1,5 @@
+    1  cd ~/workspace/ideamemo
+    2  rails g scaffold idea name:string description:text picture:string
+    3  rake db:migrate
+    4  history
+    5  history > memo
